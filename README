@@ -1,0 +1,18 @@
+This is the erlang port branch of Project NAMCUB.
+
+To build:
+	make
+
+We use a custom makefile (no autotools), so shoddy makefile code may exist.
+
+Given that the erlang version is significantly smaller and faster, it is likely that this will be the basis for the standard version in the future. Erlang BIFs take care of all the functionalities previously implemented by the MADELINE system, and the DCGs have been replaced with standard erlang patterns. In place of the homebrew DB hack, we use mnesia.
+
+If you are reading this, you are either on the project or you have managed to get a pre-release version. Use at your own risk!
+
+Licensing is in LICENSE.
+
+
+Currently, no install feature is supported. Cry me a river.
+
+- John Ohno
+

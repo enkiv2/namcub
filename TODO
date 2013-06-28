@@ -1,0 +1,15 @@
+TODO
+
+Client:
+- Non-default 3spans (maybe sandbox some erlang code from a doc?)
+- Add support for connecting to a remote loginserver.
+- Add quit hook to login box
+
+Server:
+- Search (plaintext search? by three-span? metadata?)
+- Link ranking
+- 3spans and other miscellaneous metadata (probably will be a record or something)
+
+General:
+- Test suite
+
